@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Myhomework</string>
+    <string name="app_name">Домашняя работа</string>
     <string name="counter_1">Counter click listener</string>
     <string name="_0">0</string>
     <string name="_1">1</string>
@@ -15,4 +15,19 @@
     <string name="division">/</string>
     <string name="multiplication">*</string>
     <string name="equals">=</string>
+    <string name="back">back</string>
+    <string name="prc">%</string>
+    <string name="tchk">.</string>
+    <string name="nol">0</string>
+    <string name="pls">+</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="mnj">*</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="delete">/</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
 </resources>

@@ -1,8 +1,10 @@
 package com.example.myhomework;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         counters = new Counters();
         setContentView(R.layout.activity_main);
-
+        Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/19659.ttf");
+        TextView textView = findViewById(R.id.textViewback);
+        textView.setTypeface(tf);
 //        ImageView imageView = findViewById(R.id.imageView1);
 //        imageView.setBackground(AppCompatResources.getDrawable(this, R.drawable.example));
 //        textView = findViewById(R.id.textView2);
@@ -90,8 +94,19 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(counters.getTv());
     }
 
-}
-
+    //private void button1
+//        button.setOnClickListener(this);
+    private void initButton1ClickListener() {
+            Button button_1 = findViewById(R.id.button_1);
+            Button button_2 = findViewById(R.id.button_2);
+            Button button_3 = findViewById(R.id.button_3);
+            Button button_4 = findViewById(R.id.button_4);
+            Button button_5 = findViewById(R.id.button_5);
+            Button button_6 = findViewById(R.id.button_6);
+            Button button_7 = findViewById(R.id.button_7);
+            Button button_8 = findViewById(R.id.button_8);
+            Button button_9 = findViewById(R.id.button_9); }
+        }
 //    private final static String KeyCounters = "Counters";  - по методичке
 //
 //    private Counters counters;

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/image"
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,12 +33,12 @@
             android:textSize= "@dimen/textCounter"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2"
+            android:text="@string/two"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView2"
@@ -50,12 +51,12 @@
             />
 
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="3"
+            android:text="@string/three"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView3"
@@ -66,12 +67,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_del"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="/"
+            android:text="@string/delete"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textViewdel"
@@ -87,12 +88,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="4"
+            android:text="@string/four"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView4"
@@ -103,12 +104,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5"
+            android:text="@string/five"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView5"
@@ -119,12 +120,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="6"
+            android:text="@string/six"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView6"
@@ -135,12 +136,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_mnj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="*"
+            android:text="@string/mnj"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textViewzv"
@@ -156,12 +157,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="7"
+            android:text="@string/seven"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView7"
@@ -172,12 +173,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="8"
+            android:text="@string/eight"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView8"
@@ -188,12 +189,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="9"
+            android:text="@string/nine"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView9"
@@ -204,12 +205,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_pls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+"
+            android:text="@string/pls"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textViewpls"
@@ -225,12 +226,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="0"
+            android:text="@string/nol"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView0"
@@ -241,12 +242,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_point"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="."
+            android:text="@string/tchk"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textView."
@@ -257,12 +258,12 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_prcnt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="%"
+            android:text="@string/prc"
             android:textSize="@dimen/button_text"/>
         <TextView
             android:id="@+id/textViewprc"
@@ -273,13 +274,14 @@
             android:text="@string/_0"
             android:textSize= "@dimen/textCounter"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_min"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="-"
-            android:textSize="@dimen/button_text"/>
+            android:textSize="@dimen/button_text"
+            tools:ignore="HardcodedText" />
         <TextView
             android:id="@+id/textViewmns"
             android:layout_width="0dp"
@@ -294,6 +296,21 @@
         android:layout_width="match_parent"
         android:layout_height="159dp"
         android:layout_weight="1" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/back"
+        android:textSize="@dimen/button_text"/>
+    <TextView
+        android:id="@+id/textViewback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/_0"
+        android:textSize= "@dimen/textCounter"/>
 
 </LinearLayout>
 
