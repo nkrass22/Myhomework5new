@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Домашняя работа</string>
-    <string name="counter_1">Counter click listener</string>
+
     <string name="_0">0</string>
     <string name="_1">1</string>
     <string name="_2">2</string>
@@ -14,8 +13,8 @@
     <string name="minus">-</string>
     <string name="division">/</string>
     <string name="multiplication">*</string>
-    <string name="equals">=</string>
-    <string name="back">back</string>
+    <string name="equals">равно</string>
+    <string name="back">назад</string>
     <string name="prc">%</string>
     <string name="tchk">.</string>
     <string name="nol">0</string>

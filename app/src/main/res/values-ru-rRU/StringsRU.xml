@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="back">Назад</string>
+
+    <string name="_0">ноль</string>
+    <string name="_1">один</string>
+    <string name="_2">два</string>
+    <string name="_3">три</string>
+    <string name="_4">четыре</string>
+    <string name="_5">пять</string>
+    <string name="_6">шесть</string>
+    <string name="_7">семь</string>
+    <string name="_8">восемь</string>
+    <string name="_9">девять</string>
+    <string name="minus">-</string>
+    <string name="division">/</string>
+    <string name="multiplication">*</string>
+    <string name="equals">равно</string>
+    <string name="back">назад</string>
+    <string name="prc">%</string>
+    <string name="tchk">.</string>
+    <string name="nol">0</string>
+    <string name="pls">+</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="mnj">*</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="delete">/</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
 </resources>
