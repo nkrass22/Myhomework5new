@@ -15,6 +15,5 @@
         <item name="android:fontFamily">cursive</item>
         <item name="android:textStyle">italic</item>
     </style>
-    <dimen name="margin">margin</dimen>
 </resources>
 
